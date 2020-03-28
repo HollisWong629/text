@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F3E691D3242F41D20092BAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E691D2242F41D20092BAEA /* main.m */; };
+		F3E691DB242F51820092BAEA /* cat1.c in Sources */ = {isa = PBXBuildFile; fileRef = F3E691DA242F51820092BAEA /* cat1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F3E691CF242F41D20092BAEA /* first cat 2020.4.26 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "first cat 2020.4.26"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E691D2242F41D20092BAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E691D9242F51820092BAEA /* cat1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cat1.h; sourceTree = "<group>"; };
+		F3E691DA242F51820092BAEA /* cat1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F3E691D2242F41D20092BAEA /* main.m */,
+				F3E691D9242F51820092BAEA /* cat1.h */,
+				F3E691DA242F51820092BAEA /* cat1.c */,
 			);
 			path = "first cat 2020.4.26";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E691DB242F51820092BAEA /* cat1.c in Sources */,
 				F3E691D3242F41D20092BAEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
